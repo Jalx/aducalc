@@ -1,0 +1,52 @@
+{
+  "name": "aducalc",
+  "version": "1.0.0",
+  "description": "Tariff calculator por custom house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --env=dev --hot",
+    "prod": "webpack-dev-server --env=prod",
+    "build:dev": "webpack --env=dev --color --watch",
+    "build:prod": "webpack -p --env=prod --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jalx/aducalc.git"
+  },
+  "keywords": [
+    "tariff",
+    "calculator"
+  ],
+  "author": "Alexis Guzmán | Jalx",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "extract-loader": "^0.1.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "redux": "^3.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Jalx/aducalc/issues"
+  },
+  "homepage": "https://github.com/Jalx/aducalc#readme"
+}

@@ -57,3 +57,13 @@ typings/
 # dotenv environment variables file
 .env
 
+# dev env files
+conf
+bin
+src
+
+#babel, eslint, webpack
+.babelrc
+.eslintrc.json
+webpack.config.js
+
